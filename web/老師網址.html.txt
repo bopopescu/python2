@@ -1,0 +1,14 @@
+https://repl.it/@Elwing
+
+https://getbootstrap.com/docs/3.3/components/
+
+https://www.w3schools.com/bootstrap/bootstrap_navbar.asp
+
+https://pyxeledit.com/
+
+[BS]navbar
+
+	container
+			img-responsive img-circle
+
+glyphicon-

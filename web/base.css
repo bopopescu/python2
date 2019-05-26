@@ -1,0 +1,15 @@
+.navbar-inverse {
+    background-color: #C2F3DC;/*大小寫無差異*/
+    border-color: #0e0101;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #dc2626;
+}
+.navbar-inverse .navbar-brand {
+    color: #cf51ec;
+}/*網頁 F12---style in detial*/
+
+img
+{
+    margin-left: auto}/*自動縮排*/
+    margin-right: auto}/*自動縮排*/

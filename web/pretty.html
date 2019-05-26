@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><a href = "/">漂亮網頁</a></title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.css">
+        <link rel="stylesheet" href="base.css"><!--##導入base.CSS資源 該資源與此   html  同 layer -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse"><!-- 導覽列inverse(黑色)-->
+
+     <div class="container"><!-- 導覽列[BS] Bootstrap  自訂容器-->
+
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href = "/">HTML課程</a><!-- 導覽列[BS] Bootstrap 字體圖標. -->
+        </div>
+        <ul class="nav navbar-nav" >
+            <li> <a href = "/"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span><!--[BS] Bootstrap 字體圖標. -->
+  我的最愛</a> </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right"><!-- 導覽列[BS] 下兩個靠右縮排-->
+             <li> <a href = "/"><span class="glyphicon glyphicon-user" aria-hidden="true"></span><!--[BS] Bootstrap 字體圖標. -->
+  註冊</a></li>
+            <li> <a href = "/"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span><!--[BS] Bootstrap 字體圖標. -->
+登入</a></li>
+
+        </ul>
+     </div>
+    </nav>
+
+    <div class="container">
+       <img class="img-responsive img-circle" src="bk.jpg"><!--圖片 縮排 and 切圓 ##bootstrap 功能><!-->
+    </div>
+        <div calss ="container">
+            <div class = "col-xs-6 col-xs-offset-3"><!--轉換屏幕裝置時機 欄位 限制 自動調整 ##RWD 功能切換裝置時適應><!-->
+
+
+             <table class = "table">
+                 <thead>
+                 <tr class ="danger">
+                        <th>姓名</th>
+                        <th>身高</th>
+                        <th>體重</th>
+                    </tr>
+                </thead>
+
+
+                <tbody>
+                    <tr class="warning">
+                        <td>wing</td>
+                        <td>175</td>
+                        <td>75</td>
+                    </tr>
+                    <tr class="info">
+                        <td>bob</td>
+                        <td>180</td>
+                        <td>80</td>
+                    </tr>
+            </tbody>
+             </table><!-- 請參閱網頁 F12 鼠標說明-->
+
+
+        </div>
+        </div>
+</body>
+</html>
